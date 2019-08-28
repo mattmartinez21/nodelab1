@@ -4,6 +4,7 @@ const port = 5000;
 const cartRoutes = require("./routes/cart.routes");
 const cors = require("cors");
 
+
 app.use(cors());
 
 app.use(express.json());
